@@ -13,6 +13,74 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <header>
+    <img src="assets/icons/logo.svg" alt="">
+    <h2 class="uppercased">NUMBERS</h2>
+  </header>
+
+  <main>
+    <section id="title">
+      <div class="uppercased">ONLINE - GRATUITO</div>
+      <h1 class="uppercased">SORTEADOR DE NÚMEROS</h1>
+    </section>
+
+    <form>
+      <div id="form-texts">
+        <div id="form-title" class="uppercased">QUERO SORTEAR:</div>
+        <div id="form-subtitle" >defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</div>
+      </div>
+
+      <div id="inputs">
+        <div class="uppercased label-sm">
+          NÚMEROS
+          <input id= "number-quantity" type="text">
+        </div>
+        <div class="uppercased label-sm">
+          DE
+          <input id= "number-start" type="text">
+        </div>
+        <div class="uppercased label-sm">
+          A
+          <input id= "number-end" type="text">
+        </div>
+      </div>
+
+      <div id="checkbox-container">
+        <div class="switch-toggle">
+          <div class="switch">
+            <div class="switch-circle"></div>
+            <input type="checkbox" name="switch-toggle">
+          </div>
+          <span class="switch-toggle-text">Não repetir número</span>
+        </div>
+      </div>
+
+      <button>
+        <div class="uppercased">
+          SORTEAR
+          <img src="assets/icons/arrow-right.svg" alt="">
+        </div>
+      </button>
+    </form>
+
+    <section id="instructions">
+      <div id="instruction-container">
+        <img src="assets/icons/instructions.svg" alt="">
+        <div>
+          <strong>Como funciona o sorteador de números?</strong>
+          <div>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</div>
+        </div>
+      </div>
+      <div id="instruction-conatainer">
+        <img src="assets/icons/instructions.svg" alt="">
+        <div>
+          <strong>Posso escolher o intervalo dos números?</strong>
+          <div>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</div>
+        </div>
+      </div>
+    </section>
+  </main>
   
   <script src="scripts.js"></script>
 </body>
